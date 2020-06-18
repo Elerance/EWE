@@ -1,0 +1,8 @@
+<?
+
+namespace App;
+
+class Core
+{
+
+}

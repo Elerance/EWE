@@ -11,7 +11,7 @@
 </head>
 <body>
 	<div class="menu">
-		<span class="title"><?=__("master:title")?></span>
+		<a href="/" class="title"><?=__("master:title")?></a>
 		<a target="_blank" href="//github.com/Elerance/EWE"><?=__("master:github")?></a>
 		<a target="_blank" href="//github.com/Elerance/EWE/issues"><?=__("master:issues")?></a>
 		<a target="_blank" href="//github.com/Elerance/EWE/wiki"><?=__("master:wiki")?></a>

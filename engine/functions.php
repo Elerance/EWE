@@ -26,6 +26,10 @@ function request() {
     return new App\Pagesystem\Request();
 }
 
+function tpl($pageuri, $params = []) {
+    return (new App\Pagesystem\Response(App\Pagesystem\Page::PAGES_PATH . '/' . $pageuri . '.php'))->AddParams($params);
+}
+
 function user() {
     // return new App\Models\User();
     return false;
@@ -45,6 +49,11 @@ function __setresponse($response) {
 function params() {
     global $RESPONSE;
     return $RESPONSE->GetParams();
+}
+
+function param($param) {
+    global $RESPONSE;
+    return $RESPONSE->GetParams()[$param];
 }
 
 function cookie($name, $value = false, $data = []) {

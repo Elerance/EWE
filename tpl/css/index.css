@@ -35,7 +35,7 @@ body {
   display: inline-block;
 }
 
-.menu span {
+.menu a.title {
   margin-right: 36px;
 }
 

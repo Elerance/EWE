@@ -1,7 +1,6 @@
-<div>
-    <div class="title"><?=__("404:title")?></div>
-    <div class="text"><?=__("404:description")?></div>
-    <div class="buttons">
-        <a href="/" class="button"><?=__("404:redirect_main")?></a>
-    </div>
+<h1><?=__("404:title")?></h1>
+<div class="block">
+    <p><?=__("404:description")?></p>
+    <br>
+    <a href="/"><?=__("404:redirect_main")?></a>
 </div>
